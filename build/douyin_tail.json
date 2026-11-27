@@ -1,0 +1,61 @@
+[
+  {
+    "id": "D43",
+    "platform": "抖音生活服务",
+    "topic": "核销",
+    "question": "我们做抖音核销工具小程序，能要求顾客先授权手机号再查询抖音团购券吗？",
+    "origin": "公开问题改写",
+    "evidence": "券查询 Q&A 1b 不建议用手机号查询抖音券资产或强制手机号授权，推荐按该方案的用户标识和授权凭证查询；外平台券无法由这一核销工具核销。",
+    "expected": "在这套核销工具里，请按抖音开放平台的用户券查询方案，用相应用户标识和授权凭证查券。避免把手机号授权设成查券的必经条件。其他平台查到的券也不能直接走这套原生券核销。",
+    "must": [
+      "不强制手机号授权",
+      "通过开放平台授权的查券方式",
+      "限定核销工具的适用范围"
+    ],
+    "red_flags": [
+      "建议强制交出手机号",
+      "承诺跨平台券可一起核销"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  },
+  {
+    "id": "D44",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "在抖音来客上新原生团购券，怎么让核销小程序知道这张券对应店内的哪个商品？",
+    "origin": "公开问题改写",
+    "evidence": "商品与门店 Q&A 1 说明可在来客创建商品时填入第三方商品 ID，后续使用券查询信息匹配商家小程序内的商品。",
+    "expected": "在抖音来客创建原生团购商品时，若当前账号有第三方商品 ID 字段，填入店内小程序中对应商品的标识。开发者用券查询接口读取关联信息，再匹配小程序里的商品。上线前用测试券确认对应关系。",
+    "must": [
+      "关键是创建商品时关联正确的第三方商品 ID",
+      "通过券查询和小程序商品匹配验证"
+    ],
+    "red_flags": [
+      "混淆第三方商品 ID 与券码或门店 ID",
+      "声称平台会根据同名自动匹配"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  },
+  {
+    "id": "D45",
+    "platform": "抖音生活服务",
+    "topic": "佣金",
+    "question": "我们用抖音核销工具小程序收加购款，能先统一分账到一个总部账户，再由总部给门店分吗？",
+    "origin": "公开问题改写",
+    "evidence": "分账 Q&A 3 说明该小程序方案可把分账集中到一个总账户，只需进件一个总商户号，由商家后续自行分配。",
+    "expected": "该小程序分账方案支持进件一个总商户号，把相应款项集中分账到总账户，再由你们根据内部约定分给门店。先通过官方渠道核实账号和支付渠道的资格，并确认门店对账安排。",
+    "must": [
+      "小程序方案支持一个总商户号",
+      "后续由商家自行分配",
+      "按账号资质核对"
+    ],
+    "red_flags": [
+      "声称每家门店必需一个商户号",
+      "把小程序款项规则套用到来客原生券"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  }
+]

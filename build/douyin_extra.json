@@ -1,0 +1,326 @@
+[
+  {
+    "id": "D26",
+    "platform": "抖音生活服务",
+    "topic": "团购",
+    "question": "抖音组合券包能把两个品牌的餐券打包，让顾客到两家店分别核销吗？",
+    "origin": "公开问题改写",
+    "evidence": "FAQ 2 说明组合券包不支持跨品牌组品、跨店核销；其他品牌的商品可考虑按实物周边方案处理，由售卖方核销。",
+    "expected": "现行组合券包方案不支持把两个品牌的服务券放进同一包后分别到店核销。若合作涉及其他品牌的实物周边，可向业务经理核对是否符合周边规范，按售卖方核销的方案办理。",
+    "must": [
+      "明确跨品牌组品和跨店核销限制",
+      "适用场景限定为组合券包"
+    ],
+    "red_flags": [
+      "承诺两品牌门店可互相核销",
+      "建议绕过品牌或门店配置"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D27",
+    "platform": "抖音生活服务",
+    "topic": "团购",
+    "question": "抖音组合券包里可以放店内满减券或折扣券吗？消费者能用这些子品再买一张抖音券吗？",
+    "origin": "公开问题改写",
+    "evidence": "FAQ 3 说明组合券包可把满减券和折扣券设为子品，用于到店抵扣；暂不支持在线二次购买抖音商品抵扣。",
+    "expected": "可按组合券包支持的类型配置满减券或折扣券，顾客到店按子品规则使用。当前这类子品不能直接在抖音线上再次买团购时叠加抵扣。",
+    "must": [
+      "识别优惠券可作子品",
+      "区分到店抵扣和线上二次购券"
+    ],
+    "red_flags": [
+      "声称一律只能做团购套餐",
+      "承诺在线再次买券可叠加"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D28",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "我做抖音组合券包，同款单人餐要放两份，能给一个子品直接设置数量 2 吗？",
+    "origin": "公开问题改写",
+    "evidence": "FAQ 5 说明该配置流程暂不支持直接设置子品份数，商家需分别创建相同子品项。",
+    "expected": "按官方组合券包配置，在一个券包里分别创建两个子品，两项使用一致的名称、套餐内容和价格。提交前以当前账号的组合券包页面为准。",
+    "must": [
+      "每份分别建子品",
+      "相同子品名称、内容或价格保持一致"
+    ],
+    "red_flags": [
+      "教用户直接在子品数量里填 2",
+      "写死未经查证的上架限制"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D29",
+    "platform": "抖音生活服务",
+    "topic": "团购",
+    "question": "我招募达人卖抖音组合券包，可以把券包里的一张子券单独挂出来卖吗？",
+    "origin": "公开问题改写",
+    "evidence": "FAQ 6 说明组合券包子品不可单独售卖，在直播和达人招募配置中选择主品。",
+    "expected": "在这个组合券包里选择主品作为挂载或达人招募商品。组合券包内的子品本身不能单独售卖，如果希望另卖同款，先核对是否可以按正常流程单独发布对应商品。",
+    "must": [
+      "选择组合券包主品",
+      "说明现有子品不能单独挂售"
+    ],
+    "red_flags": [
+      "教达人直接挂子品销售",
+      "保证任何同款都能单独建品"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D30",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "抖音客户经理说我已经开通组合券包，来客创建商品时还是没看到这个类型，先查什么？",
+    "origin": "公开问题改写",
+    "evidence": "FAQ 10 说明商家在创建商品时先选择品类，然后可选择组合券包类型。",
+    "expected": "先在抖音来客选择这件商品的真实品类，再查看商品类型中是否出现组合券包。仍没有时，请客户经理或来客客服核实该门店、账号和类目的开通情况。",
+    "must": [
+      "先选择正确品类",
+      "仍无入口请官方核实开通范围"
+    ],
+    "red_flags": [
+      "建议改挂无关类目",
+      "没有依据就判断权限已被撤销"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D31",
+    "platform": "抖音生活服务",
+    "topic": "核销",
+    "question": "组合券包如何查看核销明细",
+    "origin": "公开原题",
+    "evidence": "FAQ 11 给出通过抖音来客中的子品名称查看订单状态的办法。",
+    "expected": "到抖音来客找到这笔组合券包，按子品名称查看各子品的订单状态。碰到同名子品时，再核对对应的券记录，确认是哪一份已核销。",
+    "must": [
+      "在抖音来客查看",
+      "按子品维度核对"
+    ],
+    "red_flags": [
+      "只查主品状态就判定全部核销",
+      "声称已经读取订单状态"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D32",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "抖音组合券包里加联名实物周边，发布提示没权限，组合券包开通了还不够吗？",
+    "origin": "公开问题改写",
+    "evidence": "FAQ 12 说明组合券包的实物周边属单独权限，按实际经营范围和资质与品牌经理核对申请。",
+    "expected": "实物周边可能需要单独开通权限。先确认经营范围和相关材料，联系品牌经理核对当前类目的要求，再按要求申请；权限通过后再重新提交。",
+    "must": [
+      "识别实物周边单独权限",
+      "通过经理核对范围和申请"
+    ],
+    "red_flags": [
+      "建议借其他商品类目绕过",
+      "承诺提交后必然审批通过"
+    ],
+    "source_title": "组合券包业务介绍（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/solution/in-store-dining-solution/combo-coupon-pack/coupon-package-solution"
+  },
+  {
+    "id": "D33",
+    "platform": "抖音生活服务",
+    "topic": "核销",
+    "question": "抖音核销工具小程序里，顾客分两个订单买了券，可以在一次核销里一起用吗？",
+    "origin": "公开问题改写",
+    "evidence": "其他 Q&A 2 说明核销工具小程序需校验原生团购券 ID，同一订单可核多券，跨订单需分开核销。",
+    "expected": "这个核销工具小程序不支持把不同订单的原生券一起核销。请分别进入各自订单完成核销。同一订单下有多张券时，可以使用该小程序支持的同单多券功能。",
+    "must": [
+      "明确跨订单需分别核销",
+      "区分同单多券和跨单"
+    ],
+    "red_flags": [
+      "宣称用户账号相同就可合核",
+      "把限制推广到所有收银工具"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  },
+  {
+    "id": "D34",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "抖音原生团购订单详情里的“去使用”按钮怎么才能跳到我们已经开发好的核销小程序？",
+    "origin": "公开问题改写",
+    "evidence": "入口 Q&A 1 说明商家完成开发和自测后提交平台验收，由平台配置入口，需提供来客账户 ID 与小程序 AppID。",
+    "expected": "先按核销工具的标准链路开发、自测，确认买券到小程序核销可用，再提交平台验收。通过后按流程提供来客账户 ID 和小程序 AppID，由平台配置原生订单的入口。",
+    "must": [
+      "开发和自测后提交平台验收",
+      "平台配置入口",
+      "指明来客 ID 与小程序 AppID"
+    ],
+    "red_flags": [
+      "声称任何商家有小程序就自动出现入口",
+      "要求在公开对话发送登录密码"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  },
+  {
+    "id": "D35",
+    "platform": "抖音生活服务",
+    "topic": "佣金",
+    "question": "顾客在抖音团购核销小程序里付了加购费，这笔小程序交易按什么口径抽佣？",
+    "origin": "公开问题改写",
+    "evidence": "分账 Q&A 8 说明加购交易遵循生活服务抽返佣规则，具体类目可向来客客服查询。",
+    "expected": "在该核销小程序方案里，额外实付交易按生活服务业务的抽返佣规则处理。具体费率请按商品类目和当期政策向来客客服核实，核对小程序分账明细。",
+    "must": [
+      "说明此方案使用生活服务抽返佣规则",
+      "按类目核实当期费率"
+    ],
+    "red_flags": [
+      "把渠道费当完整抽佣费率",
+      "直接报告未经核实的统一费率"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  },
+  {
+    "id": "D36",
+    "platform": "抖音生活服务",
+    "topic": "佣金",
+    "question": "抖音团购核销工具产生的补差小程序分账明细，运营在哪里下载或查看？",
+    "origin": "公开问题改写",
+    "evidence": "分账 Q&A 9 指向抖音开放平台小程序控制台支付部分查询分账明细。",
+    "expected": "通过有权限的账号登录抖音开放平台，选中对应小程序，在控制台支付部分查分账明细。若需要导出，查看该支付页面账号当前提供的账单选项。",
+    "must": [
+      "抖音开放平台小程序控制台",
+      "进入支付部分看明细"
+    ],
+    "red_flags": [
+      "要求发登录验证码以代查",
+      "保证所有角色都有账单导出权限"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  },
+  {
+    "id": "D37",
+    "platform": "抖音生活服务",
+    "topic": "核销",
+    "question": "抖音综合行业买单，我想给其中一家门店切到扫码核销，要到哪里配置？",
+    "origin": "公开问题改写",
+    "evidence": "综合行业买单 FAQ 指向来客商品管理下的买单管理，在买单项目中编辑对应门店核销模式。",
+    "expected": "在抖音来客商品管理里找买单管理，打开对应买单项目，选中那家门店并编辑核销模式。保存后请在门店确认当前模式，菜单以账号页面实际显示为准。",
+    "must": [
+      "定位来客买单管理",
+      "修改目标门店的核销模式"
+    ],
+    "red_flags": [
+      "误指路到抖店订单后台",
+      "宣称一次修改会切换所有门店"
+    ],
+    "source_title": "综合行业买单解决方案（常见问题）｜抖音开放平台",
+    "source_url": "https://partner.open-douyin.com/docs/resource/zh-CN/local-life/solution/industry-solutions/comprehensiveindustrypaymentssolution"
+  },
+  {
+    "id": "D38",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "抖音旅行社类目迁移公告中，有的商品类目显示灰色选不了，代表什么？",
+    "origin": "公开问题改写",
+    "evidence": "2023 年旅行社迁移 FAQ 2 说明本次迁移时置灰的是逐步下线的旧类目。",
+    "expected": "在这次官方旅行社类目迁移里，置灰代表旧类目处于下线安排中。请按这次迁移说明和当前来客可选项，选择与商品实际内容匹配的新类目；若不确定，带着商品类型向平台核对。",
+    "must": [
+      "解释置灰是该次迁移中的旧类目",
+      "按实际商品选择对应新类目"
+    ],
+    "red_flags": [
+      "将任意后台置灰都归结为类目下线",
+      "保证旧类目现在仍可发布"
+    ],
+    "source_title": "旅行社（境内/外）商品类目迁移说明｜抖音生活服务学习中心",
+    "source_url": "https://lifexue.com/knowledge/detail/137499?enter_method=search"
+  },
+  {
+    "id": "D39",
+    "platform": "抖音生活服务",
+    "topic": "上架",
+    "question": "抖音旅行社想发布港澳商品，来客里看不到对应类目，先从哪里检查？",
+    "origin": "公开问题改写",
+    "evidence": "旅行社迁移 FAQ 1 说明先到来客资质中心，确认旅行社资质详情内勾选了所需经营类目，未解决时由 BD 或客服跟进。",
+    "expected": "先到抖音来客店铺管理的资质中心，查看旅行社的行业资质和已选经营类目，确认账号具备对应港澳商品的发布条件。如果确认后仍看不到入口，请对接 BD 或在来客咨询官方客服。",
+    "must": [
+      "核对资质中心里的经营类目",
+      "未解决交由官方客服或 BD 核实"
+    ],
+    "red_flags": [
+      "声称港澳类目必然开放",
+      "建议借已有其他类目先发布"
+    ],
+    "source_title": "旅行社（境内/外）商品类目迁移说明｜抖音生活服务学习中心",
+    "source_url": "https://lifexue.com/knowledge/detail/137499?enter_method=search"
+  },
+  {
+    "id": "D40",
+    "platform": "抖音生活服务",
+    "topic": "核销",
+    "question": "一张券是否可以验证多次？",
+    "origin": "公开原题",
+    "evidence": "团购核销能力 FAQ 明确普通团购券不能重复验券，次卡有按次数核销的专门规则。",
+    "expected": "普通抖音团购单券成功核销一次后不能再次核销。若收银提示已使用，请先核对核销记录；若商品实际上是次卡，按剩余次数和次卡规则处理。",
+    "must": [
+      "普通单券不能重复核销",
+      "识别次卡规则另行适用"
+    ],
+    "red_flags": [
+      "建议刷新码后再次核销同一张已用券",
+      "将次卡规定为只能使用一次"
+    ],
+    "source_title": "团购核销能力（FAQ）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/develop/capability/basic/verify-introduce"
+  },
+  {
+    "id": "D41",
+    "platform": "抖音生活服务",
+    "topic": "团购",
+    "question": "抖音普通团购结算时，一笔订单能把两个不同套餐一起买，还是只能多买同一个套餐？",
+    "origin": "公开问题改写",
+    "evidence": "团购核销能力 FAQ 说明在该普通团购订单场景，一笔订单只含一个团购商品，该商品可买多份。",
+    "expected": "普通团购订单可买同一商品的多份券，一单对应该团购商品。需要同时购买两种套餐时，按页面分别下单。组合券包属于另一种商品形式，按券包配置处理。",
+    "must": [
+      "区分同一商品多份与多个不同团购商品",
+      "限定答案为普通团购订单"
+    ],
+    "red_flags": [
+      "承诺所有团购商品均可混合结算",
+      "把普通团购一单一商品套到所有券包子品"
+    ],
+    "source_title": "团购核销能力（FAQ）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/local-life/develop/capability/basic/verify-introduce"
+  },
+  {
+    "id": "D42",
+    "platform": "抖音生活服务",
+    "topic": "佣金",
+    "question": "抖音到店核销工具小程序的钱可以自动提现吗，需要怎么开？",
+    "origin": "公开问题改写",
+    "evidence": "分账 Q&A 7 说明在此方案下可联系平台申请自动提现白名单。",
+    "expected": "该核销工具小程序可以向平台申请开通自动提现，能否开通以账户和支付渠道的实际审核为准。请通过官方运营或客服核实适用账户和申请流程。",
+    "must": [
+      "可联系平台申请开通",
+      "适用范围限定在核销工具小程序"
+    ],
+    "red_flags": [
+      "宣称自动提现默认开通",
+      "承诺申请必过或给出固定到账时间"
+    ],
+    "source_title": "抖音生活服务核销工具小程序（常见问题）｜抖音开放平台",
+    "source_url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/solutions/Life-Service-Solutions/localservice/verification"
+  }
+]

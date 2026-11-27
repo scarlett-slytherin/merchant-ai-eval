@@ -1,0 +1,11 @@
+{
+  "provider": "qwen",
+  "channel": "千问国内网页版",
+  "model_label": "Qwen-快速",
+  "version": "V1",
+  "split": "pilot",
+  "date": "2026-11-19",
+  "case_ids": ["P01", "P02", "P03", "P04", "P05", "P06"],
+  "outcome": "整批拒答",
+  "reply": "你好，我无法回答这个问题，我们换一个话题聊聊吧。"
+}
